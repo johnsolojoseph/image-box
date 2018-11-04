@@ -1,3 +1,6 @@
+# image-box
+A ReactJS website that allows users to apply filters to uploaded images and automatically generate HTML and CSS code.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
