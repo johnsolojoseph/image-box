@@ -9,7 +9,7 @@ const styles = {
     width: 300,
   },
   slider: {
-    padding: '22px 0px',
+    padding: '50px 0px',
   },
 };
 
