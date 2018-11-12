@@ -27,18 +27,23 @@ class App extends Component {
         alignItems="center"
         >
           <Grid item lg={6} xs={12}>
+          <Grid
+          container
+          direction="column"
+          alignItems="center"
+          >
             <Button />
+          </Grid>
           </Grid>
 
           <Grid item lg={6} xs={12}>
-            <Typography>Contrast</Typography>
+          <Grid
+          container
+          direction="column"
+          alignItems="center"
+          >
             <Slider />
-            <Typography>Brightness</Typography>
-            <Slider />
-            <Typography>Saturate</Typography>
-            <Slider />
-            <Typography>Sepia</Typography>
-            <Slider />
+          </Grid>
           </Grid>
       </Grid>
 

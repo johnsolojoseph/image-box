@@ -28,6 +28,7 @@ class SimpleSlider extends React.Component {
 
     return (
       <div className={classes.root}>
+        <Typography>Contrast</Typography>
         <Slider
           classes={{ container: classes.slider }}
           value={value}
