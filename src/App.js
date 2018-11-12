@@ -22,7 +22,10 @@ class App extends Component {
     return (
       <div>
         <NavBar />
-        <Grid container>
+        <Grid
+        container
+        alignItems="center"
+        >
           <Grid item lg={6} xs={12}>
             <Button />
           </Grid>
