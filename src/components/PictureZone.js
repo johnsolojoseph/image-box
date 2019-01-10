@@ -3,7 +3,14 @@ import React from 'react';
 import Canvas from './Canvas';
 import DropZone from 'react-dropzone';
 
+
+
 class PictureZone extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+
+
   render() {
     return(
       <div className="picture-zone">
@@ -11,7 +18,8 @@ class PictureZone extends React.Component {
         <Canvas />
         </div>
         <div className="upload container">
-          <a class="upload-btn btn"><i class="fas fa-file-upload"></i>  Upload</a>
+          <a className="upload-btn btn" onClick="onFileUpload"><i class="fas fa-file-upload"></i>  Upload</a>
+          
         </div>
 
       </div>

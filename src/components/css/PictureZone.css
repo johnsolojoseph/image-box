@@ -10,6 +10,10 @@
   padding: 20px 0px;
 }
 
+#html_btn {
+  display: none;
+}
+
 
 .canvas {
   padding-top: 30px;

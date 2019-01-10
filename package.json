@@ -11,6 +11,7 @@
     "react-dom": "^16.6.0",
     "react-dropzone": "^8.0.3",
     "react-dropzone-component": "^3.2.0",
+    "react-load-image": "^0.1.6",
     "react-scripts": "2.1.1"
   },
   "scripts": {

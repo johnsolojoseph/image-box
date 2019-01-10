@@ -1,0 +1,15 @@
+input[type=range]::-webkit-slider-thumb {
+  background-color: #282c34 !important;
+}
+
+input[type=range]::-webkit-range-thumb {
+  background-color: #282c34 !important;
+}
+
+.slide-view {
+  padding: 20px 0;
+}
+
+.slider {
+  height: 60px;
+}
