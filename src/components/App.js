@@ -2,7 +2,6 @@ import './css/App.css';
 import React from 'react';
 import NavBar from './NavBar';
 import PictureZone from './PictureZone';
-import Slider from './Slider';
 import Footer from './Footer'
 
 
@@ -22,13 +21,35 @@ class App extends React.Component {
     };
   }
 
+  handleFiles(e) {
+    return (
+      this.setState({
+        filePath: URL.createObjectURL(e.target.files[0])
+      }),
+      console.log(this.state.filePath)
+    );
+  }
+
+
   render() {
     return (
       <div className="app">
         <NavBar title="ImageBox" />
         <div className="row">
           <div className="picture-zone-container col s12 m12 l8">
-          <PictureZone />
+          <div className="picture-zone">
+            <div className="canvas center">
+              <img src={this.state.filePath} className="responsive-img"/>
+
+            </div>
+            <div className="upload container">
+
+              <input type="file" id="imgUpload" accept="image/*" onChange={this.handleFiles.bind(this)} />
+            </div>
+
+          </div>
+
+
           </div>
           <div className="edit-menu-container col s12 m12 l4">
           <div className="container">

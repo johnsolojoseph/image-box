@@ -3,6 +3,7 @@ import React from 'react';
 import Canvas from './Canvas';
 import DropZone from 'react-dropzone';
 
+//<!--<a className="upload-btn btn" onClick="onFileUpload"><i class="fas fa-file-upload"></i>  Upload</a> --
 
 
 class PictureZone extends React.Component {
@@ -15,11 +16,12 @@ class PictureZone extends React.Component {
     return(
       <div className="picture-zone">
         <div className="canvas center">
-        <Canvas />
+          <canvas ref="canvas" width={640} height={425} />
+
         </div>
         <div className="upload container">
-          <a className="upload-btn btn" onClick="onFileUpload"><i class="fas fa-file-upload"></i>  Upload</a>
-          
+
+          <input type="file" id="imgUpload" accept="image/*" onChange="handleFiles(this.files)" />
         </div>
 
       </div>
