@@ -1,4 +1,4 @@
-import './NavBar.css';
+import './css/NavBar.css';
 import React from 'react';
 
 class NavBar extends React.Component {
@@ -6,7 +6,7 @@ class NavBar extends React.Component {
     return(
       <nav>
         <div className="nav-wrapper container">
-        <a href="#" className="brand-logo">{this.props.title}</a>
+        <a className="brand-logo">{this.props.title}</a>
         </div>
       </nav>
 

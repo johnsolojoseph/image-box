@@ -1,0 +1,19 @@
+.btn {
+  background-color: #282c34 !important ;
+}
+
+.btn:hover {
+  background-color: #3d424e;
+}
+
+.upload {
+  padding: 20px 0px;
+}
+
+
+.canvas {
+  padding-top: 30px;
+}
+canvas {
+  border: 1px solid black;
+}
