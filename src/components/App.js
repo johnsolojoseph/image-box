@@ -5,7 +5,6 @@ import PictureZone from './PictureZone';
 import Footer from './Footer'
 
 
-
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -20,6 +19,9 @@ class App extends React.Component {
       invert: 0
     };
   }
+
+
+
 
   handleFiles(e) {
     return (
@@ -38,14 +40,16 @@ class App extends React.Component {
         <div className="row">
           <div className="picture-zone-container col s12 m12 l8">
           <div className="picture-zone">
-            <div className="canvas center">
-              <img src={this.state.filePath} className="responsive-img"/>
 
-            </div>
             <div className="upload container">
 
               <input type="file" id="imgUpload" accept="image/*" onChange={this.handleFiles.bind(this)} />
             </div>
+
+            <div className="canvas center container">
+                <img src={this.state.filePath} className="responsive-img"style={{filter: `brightness(${this.state.brightness}%) contrast(${this.state.contrast}%) saturate(${this.state.saturate}%) sepia(${this.state.sepia}%) grayscale(${this.state.grayscale}%) invert(${this.state.invert}%) hue-rotate(${this.state.hue}deg) `}}/>
+            </div>
+            <br />
 
           </div>
 
