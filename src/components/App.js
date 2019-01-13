@@ -1,4 +1,5 @@
 import './css/App.css';
+import img from './img/sf.jpg'
 import React from 'react';
 import NavBar from './NavBar';
 import PictureZone from './PictureZone';
@@ -9,7 +10,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      filePath: [],
+      filePath: img,
       brightness: 100,
       saturate: 100,
       contrast: 100,
@@ -41,15 +42,22 @@ class App extends React.Component {
           <div className="picture-zone-container col s12 m12 l8">
           <div className="picture-zone">
 
-            <div className="upload container">
 
-              <input type="file" id="imgUpload" accept="image/*" onChange={this.handleFiles.bind(this)} />
-            </div>
+          <div className="upload container">
+            <label for="imgUpload"><i class="fas fa-file-upload"></i> Upload</label>
+            <input type="file" id="imgUpload" accept="image/*" onChange={this.handleFiles.bind(this)} />
 
-            <div className="canvas center container">
-                <img src={this.state.filePath} className="responsive-img"style={{filter: `brightness(${this.state.brightness}%) contrast(${this.state.contrast}%) saturate(${this.state.saturate}%) sepia(${this.state.sepia}%) grayscale(${this.state.grayscale}%) invert(${this.state.invert}%) hue-rotate(${this.state.hue}deg) `}}/>
-            </div>
-            <br />
+
+          </div>
+
+
+          <div className="canvas center container">
+            <img src={this.state.filePath} className="responsive-img"style={{filter: `brightness(${this.state.brightness}%) contrast(${this.state.contrast}%) saturate(${this.state.saturate}%) sepia(${this.state.sepia}%) grayscale(${this.state.grayscale}%) invert(${this.state.invert}%) hue-rotate(${this.state.hue}deg) `}}/>
+          </div>
+
+
+
+
 
           </div>
 
@@ -161,6 +169,9 @@ class App extends React.Component {
 
           </div>
           </div>
+        </div>
+        <div className="container css-code">
+          <h3> CSS Code </h3>
         </div>
         <Footer />
       </div>
