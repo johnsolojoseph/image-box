@@ -131,7 +131,7 @@ class App extends React.Component {
                   value={this.state.grayscale}
                   type="range"
                   min="0"
-                  max="200"
+                  max="100"
                   onChange={(e) => this.setState({grayscale : e.target.value})}
                   />
                 </p>
@@ -145,7 +145,7 @@ class App extends React.Component {
                   value={this.state.hue}
                   type="range"
                   min="0"
-                  max="200"
+                  max="360"
                   onChange={(e) => this.setState({hue : e.target.value})}
                   />
                 </p>
@@ -159,7 +159,7 @@ class App extends React.Component {
                   value={this.state.invert}
                   type="range"
                   min="0"
-                  max="200"
+                  max="100"
                   onChange={(e) => this.setState({invert: e.target.value})}
                   />
                 </p>
@@ -171,7 +171,17 @@ class App extends React.Component {
           </div>
         </div>
         <div className="container css-code">
+          <div className="center">
           <h3> CSS Code </h3>
+          </div>
+          <div clasName="code-box">
+            <h6> .filter {"{"}
+            <br />
+            filter: brightness({this.state.brightness}%) contrast({this.state.contrast}%) saturate({this.state.saturate}%) sepia({this.state.sepia}%) grayscale({this.state.grayscale}%) invert({this.state.invert}%) hue-rotate({this.state.hue}deg){";"}
+            <br />
+            {"}"}
+            </h6>
+          </div>
         </div>
         <Footer />
       </div>
