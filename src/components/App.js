@@ -1,5 +1,5 @@
 import './css/App.css';
-import img from './img/sf.jpg'
+import img from './img/sd.jpg'
 import React from 'react';
 import NavBar from './NavBar';
 import PictureZone from './PictureZone';
