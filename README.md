@@ -1,5 +1,5 @@
 # image-box :computer: :camera:
-A ReactJS website that acts as a visual tool for developers to edit images and automatically generate HTML and CSS code.
+A browser-based photo editor for developers to edit images and automatically generate HTML and CSS code.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
