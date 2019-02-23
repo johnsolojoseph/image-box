@@ -47,7 +47,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### `npm run deploy`
 
-This will build the app for production and deploy it on GitHub pages. Make sure to change the homepage field in package.json with your github.io path. More details here on [deployment](https://facebook.github.io/create-react-app/docs/deployment) for GitHub pages.
+This will build the app for production and deploy it on GitHub pages. Make sure to change the homepage field in package.json with your github.io path. More details on [deployment](https://facebook.github.io/create-react-app/docs/deployment) for GitHub pages.
 
 ### `npm run eject`
 
