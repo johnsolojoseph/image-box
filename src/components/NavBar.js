@@ -6,7 +6,7 @@ class NavBar extends React.Component {
     return(
       <nav>
         <div className="nav-wrapper container">
-        <a className="brand-logo">{this.props.title}</a>
+        <a className="brand-logo" href="index.html">{this.props.title}</a>
         </div>
       </nav>
 

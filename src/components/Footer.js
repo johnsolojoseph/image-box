@@ -8,7 +8,6 @@ class Footer extends React.Component {
 
         <div className="footer-copyright center">
           <div className="container">
-          ImageBox
           </div>
         </div>
 

@@ -38,4 +38,32 @@ label:hover {
 
 div.upload.container {
   padding-top: 7%;
+  padding-bottom: 7%;
+}
+
+.code-box {
+  padding: 60px;
+  border-radius: 5px;
+  font-family: 'Inconsolata', monospace;
+  color: white;
+  background-color: #383737;
+}
+
+.css-code {
+  padding-bottom: 80px;
+}
+
+.css-text {
+  padding-bottom: 40px;
+}
+
+.reset {
+  padding: 7px;
+  border: solid #282c34 1px;
+}
+
+.reset:hover {
+  background-color: #282c34;
+  color: white;
+  cursor: pointer;
 }

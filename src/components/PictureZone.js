@@ -1,15 +1,7 @@
 import './css/PictureZone.css';
 import React from 'react';
-import DropZone from 'react-dropzone';
-
-//<!--<a className="upload-btn btn" onClick="onFileUpload"><i class="fas fa-file-upload"></i>  Upload</a> --
-
 
 class PictureZone extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
 
   render() {
     return(
