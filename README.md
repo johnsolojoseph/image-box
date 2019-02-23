@@ -1,7 +1,13 @@
 # image-box :computer: :camera:
-A browser-based photo editor for developers to edit images and automatically generate HTML and CSS code.
+A browser-based photo editor for developers to edit images and automatically generate CSS code.
 
 ![Image Box](assets/ui-website.png)
+
+## How to Use
+
+          1. Upload your own picture or keep the existing default picture
+          2. Edit the picture in the browser
+          3. Take the CSS code generated for your own web app
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
