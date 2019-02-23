@@ -37,8 +37,8 @@ label:hover {
 }
 
 div.upload.container {
-  padding-top: 7%;
-  padding-bottom: 7%;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .code-box {
