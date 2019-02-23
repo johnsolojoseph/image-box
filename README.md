@@ -1,6 +1,8 @@
 # image-box :computer: :camera:
 A browser-based photo editor for developers to edit images and automatically generate HTML and CSS code.
 
+![Photo Editor Screenshot] (https://github.com/johnsolojoseph/image-box/blob/master/assets/ui-website.png?raw=true)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
