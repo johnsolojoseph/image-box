@@ -1,7 +1,9 @@
 # image-box :computer: :camera:
 A browser-based photo editor for developers to edit images and automatically generate CSS code.
 
-Try it out here! [Image Box](https://johnsolojoseph.github.io/image-box/).
+Try it out here [Image Box](https://johnsolojoseph.github.io/image-box/)!
+<br />
+<br />
 
 
 ![Image Box](assets/ui-website.png)
